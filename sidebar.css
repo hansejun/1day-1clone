@@ -1,49 +1,54 @@
-sidebar{
-  display:grid;
+sidebar {
+  display: grid;
   grid-template-columns: 1fr 5fr 2fr;
-  padding-top:10vh;
-  padding-bottom:7vh;
+  padding-top: 10vh;
+  padding-bottom: 7vh;
   overflow: scroll;
+  z-index: 4;
+  position: fixed;
+  width: 40vw;
+  height: 100vh;
+  background-color: #f0f0f0;
 }
-.sidebar-title{
-  font-size:70px;
-  color:#E84A3A;
+.sidebar-title {
+  font-size: 70px;
+  color: #e84a3a;
   letter-spacing: 8px;
 }
-.sidebar-smallTitle{
-  color:#E84A3A;
-  width:80%;
+.sidebar-smallTitle {
+  color: #e84a3a;
+  width: 80%;
   font-size: 24px;
   font-weight: 300;
   line-height: 1.2;
-  margin:10vh 0px 5vh 0px;
+  margin: 10vh 0px 5vh 0px;
 }
-.sidebar-content{
-  color:#E84A3A;
+.sidebar-content {
+  color: #e84a3a;
   width: 94%;
   font-size: 16px;
   line-height: 1.2;
   font-weight: 400;
   text-align: justify;
 }
-.sidebar-tag{
-  width:90%;
-  color:rgb(97, 97, 97);
+.sidebar-tag {
+  width: 90%;
+  color: rgb(97, 97, 97);
   margin: 4vh 0px 2vh 0px;
   display: flex;
   flex-wrap: wrap;
 }
-.sidebar-tag span{
+.sidebar-tag span {
   font-weight: 400;
   border-bottom: 1px solid rgb(97, 97, 97);
-  padding-bottom:3px;
+  padding-bottom: 3px;
   font-size: 14px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-.sidebar-footer{
-  font-size:10px;
+.sidebar-footer {
+  font-size: 10px;
   font-weight: 400;
-  color:rgb(122, 122, 122);
+  color: rgb(122, 122, 122);
   line-height: 1.2;
 }
